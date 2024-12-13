@@ -53,5 +53,44 @@
                 }
             ]
         }
-    }
+    },
+    "options": {
+        "grid": {
+            "type": "compact",
+            "title": "Grid title 9",
+            "showFilter": true,
+            "showHeaders": true,
+            "showTotals": true,
+            "showGrandTotals": "on",
+            "showHierarchies": true,
+            "showHierarchyCaptions": true,
+            "showReportFiltersArea": true
+        },
+        "configuratorActive": false,
+        "configuratorButton": true,
+        "showAggregations": true,
+        "showCalculatedValuesButton": true,
+        "drillThrough": true,
+        "showDrillThroughConfigurator": true,
+        "sorting": "on",
+        "datePattern": "dd/MM/yyyy",
+        "dateTimePattern": "dd/MM/yyyy HH:mm:ss",
+        "saveAllFormats": false,
+        "showDefaultSlice": true,
+        "defaultHierarchySortName": "asc"
+    },
+    "formats": [
+        {
+            "name": "Income and Expense NYC 2019",
+            "thousandsSeparator": " ",
+            "decimalSeparator": ".",
+            "decimalPlaces": 2,
+            "maxSymbols": 20,
+            "currencySymbol": "",
+            "currencySymbolAlign": "right",
+            "nullValue": " ",
+            "infinityValue": "Infinity",
+            "divideByZeroValue": "Infinity"
+        }
+    ]
 }
