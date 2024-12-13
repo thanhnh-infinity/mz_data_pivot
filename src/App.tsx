@@ -4,11 +4,13 @@ import "@webdatarocks/webdatarocks/webdatarocks.min.css";
 import "./App.css";
 import pivotIEReportConfig from "./reportTemplates/pivotIEReportConfig";
 import pivotRRReportConfig from "./reportTemplates/pivotRRReportConfig";
+import pivotLeaseReportConfig from "./reportTemplates/pivotLeaseReportConfig";
 
 // Define the type for report configurations
 const reportConfigs = {
     IncomeExpense: pivotIEReportConfig,
-    RentRoll: pivotRRReportConfig
+    RentRoll: pivotRRReportConfig,
+    LeaseAggrement : pivotLeaseReportConfig
 };
 
 type ReportType = keyof typeof reportConfigs; // This ensures that `reportType` is one of the keys: "IncomeExpense" | "RentRoll"
@@ -50,7 +52,15 @@ const App: React.FC = () => {
                 report_name: "Rent Roll Report for OH property 2024",
                 value: "https://raw.githubusercontent.com/thanhnh-infinity/mz_data_pivot/refs/heads/main/csv_sources/rr_fact_table_Ohio_2024.csv"
             }
-        ]
+        ],
+        LeaseAggrement: [
+          {
+              label: "NYC Lease Aggrement Summary",
+              report_name: "Lease Aggrement Summary NYC Property",
+              value: "https://raw.githubusercontent.com/thanhnh-infinity/mz_data_pivot/refs/heads/main/csv_sources/lease_fact_table_NYC_all.csv"
+          }
+      ]
+
     };
 
     const onReportComplete = () => {
@@ -136,7 +146,7 @@ const App: React.FC = () => {
                 ref={ref}
                 toolbar={true}
                 width="100%"
-                height="1600px"
+                height="1000px"
                 reportcomplete={() => onReportComplete()}
                 report={currentConfig}
             />

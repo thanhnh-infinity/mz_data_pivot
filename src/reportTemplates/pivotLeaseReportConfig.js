@@ -1,56 +1,43 @@
-const pivotIEReportConfig = {
+const pivotLeaseReportConfig = {
     dataSource: {
         dataSourceType: "csv",
-        filename: "https://raw.githubusercontent.com/thanhnh-infinity/thanhnh-infinity.github.io/refs/heads/master/projects/ie_fact_table_NYC_2019.csv"
+        filename: ""
     },
     slice: {
         rows: [
-            { uniqueName: "income_or_expense" },
-            { uniqueName: "category" },
-            { uniqueName: "original_category" }
+            { uniqueName: "unique_building" },
+            { uniqueName: "unique_unit" },
+            { uniqueName: "tenant" },
+            { uniqueName: "unit_tenant_hiring_from_owner" }
         ],
         columns: [
             { uniqueName: "Measures" },
             { uniqueName: "year" },
-            { 
+            {
                 uniqueName: "month",
-                sortOrder: "asc", 
-                mapping: {
-                    January: 1,
-                    February: 2,
-                    March: 3,
-                    April: 4,
-                    May: 5,
-                    June: 6,
-                    July: 7,
-                    August: 8,
-                    September: 9,
-                    October: 10,
-                    November: 11,
-                    December: 12
-                }
+                sortOrder: "asc",
+                sort: "custom",
+                customSorting: [
+                    "January", "February", "March", "April", "May", "June",
+                    "July", "August", "September", "October", "November", "December"
+                ]
             }
         ],
         measures: [
             {
-                uniqueName: "amount",
+                uniqueName: "rent_value_current_month",
                 aggregation: "sum"
             }
         ],
         expands: {
-            rows: [
-                { tuple: ["income_or_expense.Expense"] },
-                { tuple: ["income_or_expense.Income"] }
-            ],
-            columns: [
-                { tuple: ["year.2019"] }
-            ]
+            rows: [],
+            columns: []
         }
     },
     options: {
         grid: {
             type: "compact",
-            title: "Income and Expense Report for NYC Property 2019",
+            title: "Lease Aggrement Report",
             showFilter: true,
             showHeaders: true,
             showTotals: true,
@@ -74,7 +61,7 @@ const pivotIEReportConfig = {
     },
     formats: [
         {
-            name: "Income and Expense NYC 2019",
+            name: "Lease Aggrement Report",
             thousandsSeparator: ",",
             decimalSeparator: ".",
             decimalPlaces: 2,
@@ -88,7 +75,4 @@ const pivotIEReportConfig = {
     ]
 };
 
-
-
-
-export default pivotIEReportConfig;
+export default pivotLeaseReportConfig;

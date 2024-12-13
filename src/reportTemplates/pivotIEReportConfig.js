@@ -12,7 +12,15 @@ const pivotIEReportConfig = {
         columns: [
             { uniqueName: "Measures" },
             { uniqueName: "year" },
-            { uniqueName: "month" }
+            {
+                uniqueName: "month",
+                sortOrder: "asc", // Enforce ascending order
+                sort: "custom",   // Use custom sorting for this field
+                customSorting: [
+                    "January", "February", "March", "April", "May", "June",
+                    "July", "August", "September", "October", "November", "December"
+                ]
+            }
         ],
         measures: [
             {
@@ -26,7 +34,6 @@ const pivotIEReportConfig = {
                 { tuple: ["income_or_expense.Income"] }
             ],
             columns: [
-                { tuple: ["year.2019"] }
             ]
         }
     },
