@@ -16,7 +16,14 @@ const App: React.FC = () => {
   
   return (
     <div className="App">
-      <WebDataRocks.Pivot ref={ref} toolbar={true} width="100%" reportcomplete={() => onReportComplete()} report="https://cdn.webdatarocks.com/reports/report.json"></WebDataRocks.Pivot>
+      <WebDataRocks.Pivot 
+        ref={ref} 
+        toolbar={true} 
+        width="100%" 
+        height="1800px"
+        reportcomplete={() => onReportComplete()} 
+        report="https://jsonhost.com/json/8267e6b68927b715d780c40c246158ea">
+      </WebDataRocks.Pivot>
     </div>
   );
 }

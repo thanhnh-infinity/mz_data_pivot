@@ -1,0 +1,601 @@
+index,income_or_expense,category,original_category,month,year,amount
+0,Income,Rent,"Revenue, Rental Revenue, , Gross Rent",May,2023,739622.0
+1,Income,Rent,"Revenue, Rental Revenue, , Vacancies Apartments",May,2023,-33653.0
+2,Income,Other Income,"Revenue, Rental Revenue, , Delinquency",May,2023,-11737.64
+3,Income,Other Income,"Revenue, Other Revenue, , Key Replacement",May,2023,20.0
+4,Income,Other Income,"Revenue, Other Revenue, , Laundry & Vending",May,2023,2993.13
+5,Income,Other Income,"Revenue, Other Revenue, , NSF & Late Charges",May,2023,4536.16
+6,Income,Other Income,"Revenue, Other Revenue, , Application Fees",May,2023,2391.0
+7,Income,Other Income,"Revenue, Other Revenue, , Damages & Cleaning Fees",May,2023,2670.21
+8,Income,Other Income,"Revenue, Other Revenue, , Forfeited Tenant Deposit",May,2023,756.0
+9,Income,Other Income,"Revenue, Other Revenue, , Pet Fees",May,2023,495.0
+10,Income,Other Income,"Revenue, Other Revenue, , Water & Sewer Income",May,2023,19596.22
+11,Income,Other Income,"Revenue, Other Revenue, , Garage & Parking",May,2023,410.0
+12,Income,Other Income,"Revenue, Other Revenue, , Cable Income",May,2023,2864.95
+13,Income,Other Income,"Revenue, Other Revenue, , Gas Income",May,2023,2958.81
+14,Income,Other Income,"Revenue, Other Revenue, , Electric Income",May,2023,2802.23
+15,Income,Other Income,"Revenue, Other Revenue, , Misc Income",May,2023,1341.09
+16,Expense,Real Estate Taxes,"EXPENSES, Real Estate Taxes and Insurance, , Real Estate Taxes",May,2023,65314.68
+17,Expense,Insurance,"EXPENSES, Real Estate Taxes and Insurance, , Property Liability Insurance",May,2023,18732.75
+18,Expense,Utilities,"EXPENSES, Utilities Expense, , Electricity",May,2023,8027.08
+19,Expense,Utilities,"EXPENSES, Utilities Expense, , Water",May,2023,16340.32
+20,Expense,Utilities,"EXPENSES, Utilities Expense, , Gas",May,2023,8356.49
+21,Expense,Utilities,"EXPENSES, Utilities Expense, , Sewer",May,2023,15151.53
+22,Expense,Utilities,"EXPENSES, Utilities Expense, , Telephone/Answering Service",May,2023,764.3
+23,Expense,Payroll,"EXPENSES, Payroll Expenses, , Manager Payroll",May,2023,6342.15
+24,Expense,Payroll,"EXPENSES, Payroll Expenses, , Grounds Payroll",May,2023,5060.98
+25,Expense,Payroll,"EXPENSES, Payroll Expenses, , Repairs Payroll",May,2023,21830.43
+26,Expense,Payroll,"EXPENSES, Payroll Expenses, , Payroll Processing Charge",May,2023,209.22
+27,Expense,Payroll,"EXPENSES, Payroll Expenses, , Payroll Taxes",May,2023,4515.19
+28,Expense,Payroll,"EXPENSES, Payroll Expenses, , Health Insurance/Other Benefits",May,2023,3102.18
+29,Expense,Repairs & Maintenance,"EXPENSES, Landscaping and Snow Removal, , Grounds Maintenance",May,2023,4777.14
+30,Expense,Repairs & Maintenance,"EXPENSES, Landscaping and Snow Removal, , Snow Removal",May,2023,0.0
+31,Expense,Other Expense,"EXPENSES, Trash Removal, , Garbage & Trash Removal",May,2023,5740.25
+32,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Janitor/Cleaning Supply",May,2023,903.13
+33,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Janitor/Clean Contract",May,2023,1575.79
+34,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Exterminating Contract",May,2023,1026.0
+35,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Security Service",May,2023,1910.0
+36,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Fire and Security",May,2023,505.0
+37,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Repairs Contract",May,2023,3735.06
+38,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Misc. Maint./Operating",May,2023,3078.1
+39,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Bank Fees",May,2023,15.0
+40,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Other Renting Expense",May,2023,1147.26
+41,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Office Supplies",May,2023,885.96
+42,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Postage & Freight",May,2023,0.0
+43,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Legal Expense - Eviction",May,2023,0.0
+44,Expense,General & Administrative,"EXPENSES, Administrative Expense, , IT Expense",May,2023,1943.31
+45,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Misc. Administrative Exp",May,2023,473.11
+46,Expense,General & Administrative,"EXPENSES, Advertising and Promotion, , Promotions",May,2023,0.0
+47,Expense,General & Administrative,"EXPENSES, Advertising and Promotion, , Internet Advertising",May,2023,1129.0
+48,Expense,General & Administrative,"EXPENSES, Advertising and Promotion, , Advertising",May,2023,927.81
+49,Expense,Management Fee,"EXPENSES, Management Fees, , Management Fee",May,2023,22154.9
+50,Income,Rent,"Revenue, Rental Revenue, , Gross Rent",June,2023,746207.0
+51,Income,Rent,"Revenue, Rental Revenue, , Vacancies Apartments",June,2023,-36598.0
+52,Income,Other Income,"Revenue, Rental Revenue, , Delinquency",June,2023,-9954.48
+53,Income,Other Income,"Revenue, Other Revenue, , Key Replacement",June,2023,0.0
+54,Income,Other Income,"Revenue, Other Revenue, , Laundry & Vending",June,2023,0.0
+55,Income,Other Income,"Revenue, Other Revenue, , NSF & Late Charges",June,2023,4054.31
+56,Income,Other Income,"Revenue, Other Revenue, , Application Fees",June,2023,3164.0
+57,Income,Other Income,"Revenue, Other Revenue, , Damages & Cleaning Fees",June,2023,2190.39
+58,Income,Other Income,"Revenue, Other Revenue, , Forfeited Tenant Deposit",June,2023,584.0
+59,Income,Other Income,"Revenue, Other Revenue, , Pet Fees",June,2023,510.0
+60,Income,Other Income,"Revenue, Other Revenue, , Water & Sewer Income",June,2023,20535.92
+61,Income,Other Income,"Revenue, Other Revenue, , Garage & Parking",June,2023,435.0
+62,Income,Other Income,"Revenue, Other Revenue, , Cable Income",June,2023,3257.72
+63,Income,Other Income,"Revenue, Other Revenue, , Gas Income",June,2023,4078.25
+64,Income,Other Income,"Revenue, Other Revenue, , Electric Income",June,2023,2638.37
+65,Income,Other Income,"Revenue, Other Revenue, , Misc Income",June,2023,1559.38
+66,Expense,Real Estate Taxes,"EXPENSES, Real Estate Taxes and Insurance, , Real Estate Taxes",June,2023,65314.68
+67,Expense,Insurance,"EXPENSES, Real Estate Taxes and Insurance, , Property Liability Insurance",June,2023,18732.75
+68,Expense,Utilities,"EXPENSES, Utilities Expense, , Electricity",June,2023,8676.54
+69,Expense,Utilities,"EXPENSES, Utilities Expense, , Water",June,2023,16781.51
+70,Expense,Utilities,"EXPENSES, Utilities Expense, , Gas",June,2023,7934.63
+71,Expense,Utilities,"EXPENSES, Utilities Expense, , Sewer",June,2023,12542.92
+72,Expense,Utilities,"EXPENSES, Utilities Expense, , Telephone/Answering Service",June,2023,596.17
+73,Expense,Payroll,"EXPENSES, Payroll Expenses, , Manager Payroll",June,2023,5582.46
+74,Expense,Payroll,"EXPENSES, Payroll Expenses, , Grounds Payroll",June,2023,5102.57
+75,Expense,Payroll,"EXPENSES, Payroll Expenses, , Repairs Payroll",June,2023,21984.61
+76,Expense,Payroll,"EXPENSES, Payroll Expenses, , Payroll Processing Charge",June,2023,261.55
+77,Expense,Payroll,"EXPENSES, Payroll Expenses, , Payroll Taxes",June,2023,4553.55
+78,Expense,Payroll,"EXPENSES, Payroll Expenses, , Health Insurance/Other Benefits",June,2023,2104.21
+79,Expense,Repairs & Maintenance,"EXPENSES, Landscaping and Snow Removal, , Grounds Maintenance",June,2023,4920.88
+80,Expense,Repairs & Maintenance,"EXPENSES, Landscaping and Snow Removal, , Snow Removal",June,2023,0.0
+81,Expense,Other Expense,"EXPENSES, Trash Removal, , Garbage & Trash Removal",June,2023,6068.08
+82,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Janitor/Cleaning Supply",June,2023,1139.83
+83,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Janitor/Clean Contract",June,2023,3866.82
+84,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Exterminating Contract",June,2023,1129.25
+85,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Security Service",June,2023,1885.5
+86,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Fire and Security",June,2023,526.12
+87,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Repairs Contract",June,2023,2810.2
+88,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Misc. Maint./Operating",June,2023,3337.33
+89,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Bank Fees",June,2023,0.0
+90,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Other Renting Expense",June,2023,1575.87
+91,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Office Supplies",June,2023,650.19
+92,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Postage & Freight",June,2023,0.0
+93,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Legal Expense - Eviction",June,2023,0.0
+94,Expense,General & Administrative,"EXPENSES, Administrative Expense, , IT Expense",June,2023,2351.63
+95,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Misc. Administrative Exp",June,2023,809.79
+96,Expense,General & Administrative,"EXPENSES, Advertising and Promotion, , Promotions",June,2023,0.0
+97,Expense,General & Administrative,"EXPENSES, Advertising and Promotion, , Internet Advertising",June,2023,1625.39
+98,Expense,General & Administrative,"EXPENSES, Advertising and Promotion, , Advertising",June,2023,516.35
+99,Expense,Management Fee,"EXPENSES, Management Fees, , Management Fee",June,2023,21946.1
+100,Income,Rent,"Revenue, Rental Revenue, , Gross Rent",July,2023,751216.0
+101,Income,Rent,"Revenue, Rental Revenue, , Vacancies Apartments",July,2023,-35180.0
+102,Income,Other Income,"Revenue, Rental Revenue, , Delinquency",July,2023,-8097.79
+103,Income,Other Income,"Revenue, Other Revenue, , Key Replacement",July,2023,65.0
+104,Income,Other Income,"Revenue, Other Revenue, , Laundry & Vending",July,2023,2837.92
+105,Income,Other Income,"Revenue, Other Revenue, , NSF & Late Charges",July,2023,3271.38
+106,Income,Other Income,"Revenue, Other Revenue, , Application Fees",July,2023,2778.0
+107,Income,Other Income,"Revenue, Other Revenue, , Damages & Cleaning Fees",July,2023,2365.61
+108,Income,Other Income,"Revenue, Other Revenue, , Forfeited Tenant Deposit",July,2023,510.0
+109,Income,Other Income,"Revenue, Other Revenue, , Pet Fees",July,2023,470.0
+110,Income,Other Income,"Revenue, Other Revenue, , Water & Sewer Income",July,2023,20145.93
+111,Income,Other Income,"Revenue, Other Revenue, , Garage & Parking",July,2023,460.0
+112,Income,Other Income,"Revenue, Other Revenue, , Cable Income",July,2023,3010.19
+113,Income,Other Income,"Revenue, Other Revenue, , Gas Income",July,2023,3807.61
+114,Income,Other Income,"Revenue, Other Revenue, , Electric Income",July,2023,3773.21
+115,Income,Other Income,"Revenue, Other Revenue, , Misc Income",July,2023,1335.11
+116,Expense,Real Estate Taxes,"EXPENSES, Real Estate Taxes and Insurance, , Real Estate Taxes",July,2023,65314.68
+117,Expense,Insurance,"EXPENSES, Real Estate Taxes and Insurance, , Property Liability Insurance",July,2023,18732.75
+118,Expense,Utilities,"EXPENSES, Utilities Expense, , Electricity",July,2023,7450.59
+119,Expense,Utilities,"EXPENSES, Utilities Expense, , Water",July,2023,17611.41
+120,Expense,Utilities,"EXPENSES, Utilities Expense, , Gas",July,2023,8526.05
+121,Expense,Utilities,"EXPENSES, Utilities Expense, , Sewer",July,2023,13360.73
+122,Expense,Utilities,"EXPENSES, Utilities Expense, , Telephone/Answering Service",July,2023,581.85
+123,Expense,Payroll,"EXPENSES, Payroll Expenses, , Manager Payroll",July,2023,5670.58
+124,Expense,Payroll,"EXPENSES, Payroll Expenses, , Grounds Payroll",July,2023,5170.44
+125,Expense,Payroll,"EXPENSES, Payroll Expenses, , Repairs Payroll",July,2023,22771.54
+126,Expense,Payroll,"EXPENSES, Payroll Expenses, , Payroll Processing Charge",July,2023,102.3
+127,Expense,Payroll,"EXPENSES, Payroll Expenses, , Payroll Taxes",July,2023,4484.53
+128,Expense,Payroll,"EXPENSES, Payroll Expenses, , Health Insurance/Other Benefits",July,2023,2803.82
+129,Expense,Repairs & Maintenance,"EXPENSES, Landscaping and Snow Removal, , Grounds Maintenance",July,2023,5231.1
+130,Expense,Repairs & Maintenance,"EXPENSES, Landscaping and Snow Removal, , Snow Removal",July,2023,0.0
+131,Expense,Other Expense,"EXPENSES, Trash Removal, , Garbage & Trash Removal",July,2023,5928.74
+132,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Janitor/Cleaning Supply",July,2023,1334.17
+133,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Janitor/Clean Contract",July,2023,1148.24
+134,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Exterminating Contract",July,2023,1536.57
+135,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Security Service",July,2023,1870.0
+136,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Fire and Security",July,2023,511.67
+137,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Repairs Contract",July,2023,2520.78
+138,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Misc. Maint./Operating",July,2023,4178.64
+139,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Bank Fees",July,2023,94.0
+140,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Other Renting Expense",July,2023,1472.95
+141,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Office Supplies",July,2023,1118.37
+142,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Postage & Freight",July,2023,0.0
+143,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Legal Expense - Eviction",July,2023,0.0
+144,Expense,General & Administrative,"EXPENSES, Administrative Expense, , IT Expense",July,2023,2138.92
+145,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Misc. Administrative Exp",July,2023,862.17
+146,Expense,General & Administrative,"EXPENSES, Advertising and Promotion, , Promotions",July,2023,0.0
+147,Expense,General & Administrative,"EXPENSES, Advertising and Promotion, , Internet Advertising",July,2023,1521.64
+148,Expense,General & Administrative,"EXPENSES, Advertising and Promotion, , Advertising",July,2023,709.35
+149,Expense,Management Fee,"EXPENSES, Management Fees, , Management Fee",July,2023,21986.7
+150,Income,Rent,"Revenue, Rental Revenue, , Gross Rent",August,2023,755696.0
+151,Income,Rent,"Revenue, Rental Revenue, , Vacancies Apartments",August,2023,-38127.0
+152,Income,Other Income,"Revenue, Rental Revenue, , Delinquency",August,2023,-10106.46
+153,Income,Other Income,"Revenue, Other Revenue, , Key Replacement",August,2023,10.0
+154,Income,Other Income,"Revenue, Other Revenue, , Laundry & Vending",August,2023,0.0
+155,Income,Other Income,"Revenue, Other Revenue, , NSF & Late Charges",August,2023,3754.19
+156,Income,Other Income,"Revenue, Other Revenue, , Application Fees",August,2023,3554.0
+157,Income,Other Income,"Revenue, Other Revenue, , Damages & Cleaning Fees",August,2023,2569.27
+158,Income,Other Income,"Revenue, Other Revenue, , Forfeited Tenant Deposit",August,2023,470.0
+159,Income,Other Income,"Revenue, Other Revenue, , Pet Fees",August,2023,550.0
+160,Income,Other Income,"Revenue, Other Revenue, , Water & Sewer Income",August,2023,21174.18
+161,Income,Other Income,"Revenue, Other Revenue, , Garage & Parking",August,2023,470.0
+162,Income,Other Income,"Revenue, Other Revenue, , Cable Income",August,2023,3334.59
+163,Income,Other Income,"Revenue, Other Revenue, , Gas Income",August,2023,3730.98
+164,Income,Other Income,"Revenue, Other Revenue, , Electric Income",August,2023,4160.14
+165,Income,Other Income,"Revenue, Other Revenue, , Misc Income",August,2023,1293.24
+166,Expense,Real Estate Taxes,"EXPENSES, Real Estate Taxes and Insurance, , Real Estate Taxes",August,2023,65314.68
+167,Expense,Insurance,"EXPENSES, Real Estate Taxes and Insurance, , Property Liability Insurance",August,2023,18732.75
+168,Expense,Utilities,"EXPENSES, Utilities Expense, , Electricity",August,2023,7858.2
+169,Expense,Utilities,"EXPENSES, Utilities Expense, , Water",August,2023,17801.86
+170,Expense,Utilities,"EXPENSES, Utilities Expense, , Gas",August,2023,8692.56
+171,Expense,Utilities,"EXPENSES, Utilities Expense, , Sewer",August,2023,12833.61
+172,Expense,Utilities,"EXPENSES, Utilities Expense, , Telephone/Answering Service",August,2023,626.11
+173,Expense,Payroll,"EXPENSES, Payroll Expenses, , Manager Payroll",August,2023,5377.36
+174,Expense,Payroll,"EXPENSES, Payroll Expenses, , Grounds Payroll",August,2023,5076.95
+175,Expense,Payroll,"EXPENSES, Payroll Expenses, , Repairs Payroll",August,2023,22938.31
+176,Expense,Payroll,"EXPENSES, Payroll Expenses, , Payroll Processing Charge",August,2023,232.08
+177,Expense,Payroll,"EXPENSES, Payroll Expenses, , Payroll Taxes",August,2023,4255.08
+178,Expense,Payroll,"EXPENSES, Payroll Expenses, , Health Insurance/Other Benefits",August,2023,3029.33
+179,Expense,Repairs & Maintenance,"EXPENSES, Landscaping and Snow Removal, , Grounds Maintenance",August,2023,4934.06
+180,Expense,Repairs & Maintenance,"EXPENSES, Landscaping and Snow Removal, , Snow Removal",August,2023,0.0
+181,Expense,Other Expense,"EXPENSES, Trash Removal, , Garbage & Trash Removal",August,2023,6288.39
+182,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Janitor/Cleaning Supply",August,2023,871.21
+183,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Janitor/Clean Contract",August,2023,1962.82
+184,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Exterminating Contract",August,2023,1171.5
+185,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Security Service",August,2023,1810.0
+186,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Fire and Security",August,2023,544.29
+187,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Repairs Contract",August,2023,3087.66
+188,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Misc. Maint./Operating",August,2023,4625.91
+189,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Bank Fees",August,2023,179.08
+190,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Other Renting Expense",August,2023,1842.07
+191,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Office Supplies",August,2023,222.52
+192,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Postage & Freight",August,2023,0.0
+193,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Legal Expense - Eviction",August,2023,948.0
+194,Expense,General & Administrative,"EXPENSES, Administrative Expense, , IT Expense",August,2023,1947.46
+195,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Misc. Administrative Exp",August,2023,1043.1
+196,Expense,General & Administrative,"EXPENSES, Advertising and Promotion, , Promotions",August,2023,1470.65
+197,Expense,General & Administrative,"EXPENSES, Advertising and Promotion, , Internet Advertising",August,2023,1610.06
+198,Expense,General & Administrative,"EXPENSES, Advertising and Promotion, , Advertising",August,2023,312.63
+199,Expense,Management Fee,"EXPENSES, Management Fees, , Management Fee",August,2023,22225.58
+200,Income,Rent,"Revenue, Rental Revenue, , Gross Rent",September,2023,754520.0
+201,Income,Rent,"Revenue, Rental Revenue, , Vacancies Apartments",September,2023,-41291.0
+202,Income,Other Income,"Revenue, Rental Revenue, , Delinquency",September,2023,-7118.14
+203,Income,Other Income,"Revenue, Other Revenue, , Key Replacement",September,2023,35.0
+204,Income,Other Income,"Revenue, Other Revenue, , Laundry & Vending",September,2023,3137.18
+205,Income,Other Income,"Revenue, Other Revenue, , NSF & Late Charges",September,2023,3934.81
+206,Income,Other Income,"Revenue, Other Revenue, , Application Fees",September,2023,3073.0
+207,Income,Other Income,"Revenue, Other Revenue, , Damages & Cleaning Fees",September,2023,2298.6
+208,Income,Other Income,"Revenue, Other Revenue, , Forfeited Tenant Deposit",September,2023,565.0
+209,Income,Other Income,"Revenue, Other Revenue, , Pet Fees",September,2023,535.0
+210,Income,Other Income,"Revenue, Other Revenue, , Water & Sewer Income",September,2023,19903.65
+211,Income,Other Income,"Revenue, Other Revenue, , Garage & Parking",September,2023,440.0
+212,Income,Other Income,"Revenue, Other Revenue, , Cable Income",September,2023,3189.22
+213,Income,Other Income,"Revenue, Other Revenue, , Gas Income",September,2023,4006.49
+214,Income,Other Income,"Revenue, Other Revenue, , Electric Income",September,2023,4171.66
+215,Income,Other Income,"Revenue, Other Revenue, , Misc Income",September,2023,866.15
+216,Expense,Real Estate Taxes,"EXPENSES, Real Estate Taxes and Insurance, , Real Estate Taxes",September,2023,65314.68
+217,Expense,Insurance,"EXPENSES, Real Estate Taxes and Insurance, , Property Liability Insurance",September,2023,18732.75
+218,Expense,Utilities,"EXPENSES, Utilities Expense, , Electricity",September,2023,7716.22
+219,Expense,Utilities,"EXPENSES, Utilities Expense, , Water",September,2023,17215.1
+220,Expense,Utilities,"EXPENSES, Utilities Expense, , Gas",September,2023,9818.17
+221,Expense,Utilities,"EXPENSES, Utilities Expense, , Sewer",September,2023,13426.95
+222,Expense,Utilities,"EXPENSES, Utilities Expense, , Telephone/Answering Service",September,2023,598.13
+223,Expense,Payroll,"EXPENSES, Payroll Expenses, , Manager Payroll",September,2023,5405.21
+224,Expense,Payroll,"EXPENSES, Payroll Expenses, , Grounds Payroll",September,2023,5164.68
+225,Expense,Payroll,"EXPENSES, Payroll Expenses, , Repairs Payroll",September,2023,22190.74
+226,Expense,Payroll,"EXPENSES, Payroll Expenses, , Payroll Processing Charge",September,2023,216.34
+227,Expense,Payroll,"EXPENSES, Payroll Expenses, , Payroll Taxes",September,2023,4349.05
+228,Expense,Payroll,"EXPENSES, Payroll Expenses, , Health Insurance/Other Benefits",September,2023,3265.71
+229,Expense,Repairs & Maintenance,"EXPENSES, Landscaping and Snow Removal, , Grounds Maintenance",September,2023,5064.91
+230,Expense,Repairs & Maintenance,"EXPENSES, Landscaping and Snow Removal, , Snow Removal",September,2023,0.0
+231,Expense,Other Expense,"EXPENSES, Trash Removal, , Garbage & Trash Removal",September,2023,6035.68
+232,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Janitor/Cleaning Supply",September,2023,1190.0
+233,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Janitor/Clean Contract",September,2023,2568.57
+234,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Exterminating Contract",September,2023,1201.12
+235,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Security Service",September,2023,1875.0
+236,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Fire and Security",September,2023,523.43
+237,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Repairs Contract",September,2023,2748.1
+238,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Misc. Maint./Operating",September,2023,4304.65
+239,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Bank Fees",September,2023,61.0
+240,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Other Renting Expense",September,2023,1632.54
+241,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Office Supplies",September,2023,941.73
+242,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Postage & Freight",September,2023,56.0
+243,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Legal Expense - Eviction",September,2023,0.0
+244,Expense,General & Administrative,"EXPENSES, Administrative Expense, , IT Expense",September,2023,1917.28
+245,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Misc. Administrative Exp",September,2023,711.89
+246,Expense,General & Administrative,"EXPENSES, Advertising and Promotion, , Promotions",September,2023,0.0
+247,Expense,General & Administrative,"EXPENSES, Advertising and Promotion, , Internet Advertising",September,2023,1421.71
+248,Expense,General & Administrative,"EXPENSES, Advertising and Promotion, , Advertising",September,2023,720.38
+249,Expense,Management Fee,"EXPENSES, Management Fees, , Management Fee",September,2023,22652.33
+250,Income,Rent,"Revenue, Rental Revenue, , Gross Rent",October,2023,754203.0
+251,Income,Rent,"Revenue, Rental Revenue, , Vacancies Apartments",October,2023,-40331.0
+252,Income,Other Income,"Revenue, Rental Revenue, , Delinquency",October,2023,-7662.03
+253,Income,Other Income,"Revenue, Other Revenue, , Key Replacement",October,2023,0.0
+254,Income,Other Income,"Revenue, Other Revenue, , Laundry & Vending",October,2023,0.0
+255,Income,Other Income,"Revenue, Other Revenue, , NSF & Late Charges",October,2023,3578.35
+256,Income,Other Income,"Revenue, Other Revenue, , Application Fees",October,2023,3381.0
+257,Income,Other Income,"Revenue, Other Revenue, , Damages & Cleaning Fees",October,2023,2753.44
+258,Income,Other Income,"Revenue, Other Revenue, , Forfeited Tenant Deposit",October,2023,816.0
+259,Income,Other Income,"Revenue, Other Revenue, , Pet Fees",October,2023,510.0
+260,Income,Other Income,"Revenue, Other Revenue, , Water & Sewer Income",October,2023,19796.7
+261,Income,Other Income,"Revenue, Other Revenue, , Garage & Parking",October,2023,435.0
+262,Income,Other Income,"Revenue, Other Revenue, , Cable Income",October,2023,3315.1
+263,Income,Other Income,"Revenue, Other Revenue, , Gas Income",October,2023,4350.12
+264,Income,Other Income,"Revenue, Other Revenue, , Electric Income",October,2023,4447.9
+265,Income,Other Income,"Revenue, Other Revenue, , Misc Income",October,2023,1083.11
+266,Expense,Real Estate Taxes,"EXPENSES, Real Estate Taxes and Insurance, , Real Estate Taxes",October,2023,65314.68
+267,Expense,Insurance,"EXPENSES, Real Estate Taxes and Insurance, , Property Liability Insurance",October,2023,18732.75
+268,Expense,Utilities,"EXPENSES, Utilities Expense, , Electricity",October,2023,8057.73
+269,Expense,Utilities,"EXPENSES, Utilities Expense, , Water",October,2023,17591.2
+270,Expense,Utilities,"EXPENSES, Utilities Expense, , Gas",October,2023,9628.35
+271,Expense,Utilities,"EXPENSES, Utilities Expense, , Sewer",October,2023,14191.83
+272,Expense,Utilities,"EXPENSES, Utilities Expense, , Telephone/Answering Service",October,2023,634.45
+273,Expense,Payroll,"EXPENSES, Payroll Expenses, , Manager Payroll",October,2023,5674.7
+274,Expense,Payroll,"EXPENSES, Payroll Expenses, , Grounds Payroll",October,2023,5129.62
+275,Expense,Payroll,"EXPENSES, Payroll Expenses, , Repairs Payroll",October,2023,22392.43
+276,Expense,Payroll,"EXPENSES, Payroll Expenses, , Payroll Processing Charge",October,2023,263.72
+277,Expense,Payroll,"EXPENSES, Payroll Expenses, , Payroll Taxes",October,2023,4213.68
+278,Expense,Payroll,"EXPENSES, Payroll Expenses, , Health Insurance/Other Benefits",October,2023,3157.8
+279,Expense,Repairs & Maintenance,"EXPENSES, Landscaping and Snow Removal, , Grounds Maintenance",October,2023,4718.65
+280,Expense,Repairs & Maintenance,"EXPENSES, Landscaping and Snow Removal, , Snow Removal",October,2023,0.0
+281,Expense,Other Expense,"EXPENSES, Trash Removal, , Garbage & Trash Removal",October,2023,6116.71
+282,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Janitor/Cleaning Supply",October,2023,1079.88
+283,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Janitor/Clean Contract",October,2023,1890.02
+284,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Exterminating Contract",October,2023,1493.48
+285,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Security Service",October,2023,1840.0
+286,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Fire and Security",October,2023,539.97
+287,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Repairs Contract",October,2023,3166.54
+288,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Misc. Maint./Operating",October,2023,3586.73
+289,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Bank Fees",October,2023,80.0
+290,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Other Renting Expense",October,2023,1291.2
+291,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Office Supplies",October,2023,514.2
+292,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Postage & Freight",October,2023,0.0
+293,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Legal Expense - Eviction",October,2023,0.0
+294,Expense,General & Administrative,"EXPENSES, Administrative Expense, , IT Expense",October,2023,2262.86
+295,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Misc. Administrative Exp",October,2023,876.24
+296,Expense,General & Administrative,"EXPENSES, Advertising and Promotion, , Promotions",October,2023,0.0
+297,Expense,General & Administrative,"EXPENSES, Advertising and Promotion, , Internet Advertising",October,2023,1518.02
+298,Expense,General & Administrative,"EXPENSES, Advertising and Promotion, , Advertising",October,2023,796.7
+299,Expense,Management Fee,"EXPENSES, Management Fees, , Management Fee",October,2023,22246.34
+300,Income,Rent,"Revenue, Rental Revenue, , Gross Rent",November,2023,753639.0
+301,Income,Rent,"Revenue, Rental Revenue, , Vacancies Apartments",November,2023,-40997.0
+302,Income,Other Income,"Revenue, Rental Revenue, , Delinquency",November,2023,-5032.87
+303,Income,Other Income,"Revenue, Other Revenue, , Key Replacement",November,2023,50.0
+304,Income,Other Income,"Revenue, Other Revenue, , Laundry & Vending",November,2023,3083.97
+305,Income,Other Income,"Revenue, Other Revenue, , NSF & Late Charges",November,2023,4168.92
+306,Income,Other Income,"Revenue, Other Revenue, , Application Fees",November,2023,3117.0
+307,Income,Other Income,"Revenue, Other Revenue, , Damages & Cleaning Fees",November,2023,2540.23
+308,Income,Other Income,"Revenue, Other Revenue, , Forfeited Tenant Deposit",November,2023,640.0
+309,Income,Other Income,"Revenue, Other Revenue, , Pet Fees",November,2023,490.0
+310,Income,Other Income,"Revenue, Other Revenue, , Water & Sewer Income",November,2023,20143.94
+311,Income,Other Income,"Revenue, Other Revenue, , Garage & Parking",November,2023,450.0
+312,Income,Other Income,"Revenue, Other Revenue, , Cable Income",November,2023,3225.49
+313,Income,Other Income,"Revenue, Other Revenue, , Gas Income",November,2023,4131.8
+314,Income,Other Income,"Revenue, Other Revenue, , Electric Income",November,2023,4518.39
+315,Income,Other Income,"Revenue, Other Revenue, , Misc Income",November,2023,1136.45
+316,Expense,Real Estate Taxes,"EXPENSES, Real Estate Taxes and Insurance, , Real Estate Taxes",November,2023,65314.68
+317,Expense,Insurance,"EXPENSES, Real Estate Taxes and Insurance, , Property Liability Insurance",November,2023,18732.75
+318,Expense,Utilities,"EXPENSES, Utilities Expense, , Electricity",November,2023,7953.91
+319,Expense,Utilities,"EXPENSES, Utilities Expense, , Water",November,2023,18048.14
+320,Expense,Utilities,"EXPENSES, Utilities Expense, , Gas",November,2023,9883.62
+321,Expense,Utilities,"EXPENSES, Utilities Expense, , Sewer",November,2023,14061.09
+322,Expense,Utilities,"EXPENSES, Utilities Expense, , Telephone/Answering Service",November,2023,621.68
+323,Expense,Payroll,"EXPENSES, Payroll Expenses, , Manager Payroll",November,2023,5712.16
+324,Expense,Payroll,"EXPENSES, Payroll Expenses, , Grounds Payroll",November,2023,5239.16
+325,Expense,Payroll,"EXPENSES, Payroll Expenses, , Repairs Payroll",November,2023,22530.25
+326,Expense,Payroll,"EXPENSES, Payroll Expenses, , Payroll Processing Charge",November,2023,241.46
+327,Expense,Payroll,"EXPENSES, Payroll Expenses, , Payroll Taxes",November,2023,4465.31
+328,Expense,Payroll,"EXPENSES, Payroll Expenses, , Health Insurance/Other Benefits",November,2023,3096.51
+329,Expense,Repairs & Maintenance,"EXPENSES, Landscaping and Snow Removal, , Grounds Maintenance",November,2023,5183.36
+330,Expense,Repairs & Maintenance,"EXPENSES, Landscaping and Snow Removal, , Snow Removal",November,2023,3351.89
+331,Expense,Other Expense,"EXPENSES, Trash Removal, , Garbage & Trash Removal",November,2023,6239.25
+332,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Janitor/Cleaning Supply",November,2023,1383.97
+333,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Janitor/Clean Contract",November,2023,2003.57
+334,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Exterminating Contract",November,2023,1248.11
+335,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Security Service",November,2023,1860.0
+336,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Fire and Security",November,2023,529.45
+337,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Repairs Contract",November,2023,2871.42
+338,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Misc. Maint./Operating",November,2023,4133.49
+339,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Bank Fees",November,2023,113.54
+340,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Other Renting Expense",November,2023,1643.39
+341,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Office Supplies",November,2023,1367.0
+342,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Postage & Freight",November,2023,0.0
+343,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Legal Expense - Eviction",November,2023,0.0
+344,Expense,General & Administrative,"EXPENSES, Administrative Expense, , IT Expense",November,2023,2105.79
+345,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Misc. Administrative Exp",November,2023,749.52
+346,Expense,General & Administrative,"EXPENSES, Advertising and Promotion, , Promotions",November,2023,0.0
+347,Expense,General & Administrative,"EXPENSES, Advertising and Promotion, , Internet Advertising",November,2023,1710.56
+348,Expense,General & Administrative,"EXPENSES, Advertising and Promotion, , Advertising",November,2023,588.32
+349,Expense,Management Fee,"EXPENSES, Management Fees, , Management Fee",November,2023,22135.03
+350,Income,Rent,"Revenue, Rental Revenue, , Gross Rent",December,2023,753848.0
+351,Income,Rent,"Revenue, Rental Revenue, , Vacancies Apartments",December,2023,-39687.0
+352,Income,Other Income,"Revenue, Rental Revenue, , Delinquency",December,2023,-3978.32
+353,Income,Other Income,"Revenue, Other Revenue, , Key Replacement",December,2023,35.0
+354,Income,Other Income,"Revenue, Other Revenue, , Laundry & Vending",December,2023,0.0
+355,Income,Other Income,"Revenue, Other Revenue, , NSF & Late Charges",December,2023,3918.23
+356,Income,Other Income,"Revenue, Other Revenue, , Application Fees",December,2023,3741.0
+357,Income,Other Income,"Revenue, Other Revenue, , Damages & Cleaning Fees",December,2023,3079.3
+358,Income,Other Income,"Revenue, Other Revenue, , Forfeited Tenant Deposit",December,2023,430.0
+359,Income,Other Income,"Revenue, Other Revenue, , Pet Fees",December,2023,520.0
+360,Income,Other Income,"Revenue, Other Revenue, , Water & Sewer Income",December,2023,20301.05
+361,Income,Other Income,"Revenue, Other Revenue, , Garage & Parking",December,2023,410.0
+362,Income,Other Income,"Revenue, Other Revenue, , Cable Income",December,2023,3308.67
+363,Income,Other Income,"Revenue, Other Revenue, , Gas Income",December,2023,4876.57
+364,Income,Other Income,"Revenue, Other Revenue, , Electric Income",December,2023,4428.7
+365,Income,Other Income,"Revenue, Other Revenue, , Misc Income",December,2023,980.98
+366,Expense,Real Estate Taxes,"EXPENSES, Real Estate Taxes and Insurance, , Real Estate Taxes",December,2023,65314.68
+367,Expense,Insurance,"EXPENSES, Real Estate Taxes and Insurance, , Property Liability Insurance",December,2023,18732.75
+368,Expense,Utilities,"EXPENSES, Utilities Expense, , Electricity",December,2023,8187.94
+369,Expense,Utilities,"EXPENSES, Utilities Expense, , Water",December,2023,17871.86
+370,Expense,Utilities,"EXPENSES, Utilities Expense, , Gas",December,2023,9936.47
+371,Expense,Utilities,"EXPENSES, Utilities Expense, , Sewer",December,2023,14323.08
+372,Expense,Utilities,"EXPENSES, Utilities Expense, , Telephone/Answering Service",December,2023,630.41
+373,Expense,Payroll,"EXPENSES, Payroll Expenses, , Manager Payroll",December,2023,5963.13
+374,Expense,Payroll,"EXPENSES, Payroll Expenses, , Grounds Payroll",December,2023,5176.45
+375,Expense,Payroll,"EXPENSES, Payroll Expenses, , Repairs Payroll",December,2023,22293.61
+376,Expense,Payroll,"EXPENSES, Payroll Expenses, , Payroll Processing Charge",December,2023,256.79
+377,Expense,Payroll,"EXPENSES, Payroll Expenses, , Payroll Taxes",December,2023,4617.84
+378,Expense,Payroll,"EXPENSES, Payroll Expenses, , Health Insurance/Other Benefits",December,2023,3364.3
+379,Expense,Repairs & Maintenance,"EXPENSES, Landscaping and Snow Removal, , Grounds Maintenance",December,2023,4817.61
+380,Expense,Repairs & Maintenance,"EXPENSES, Landscaping and Snow Removal, , Snow Removal",December,2023,3165.39
+381,Expense,Other Expense,"EXPENSES, Trash Removal, , Garbage & Trash Removal",December,2023,6441.15
+382,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Janitor/Cleaning Supply",December,2023,953.1
+383,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Janitor/Clean Contract",December,2023,1813.0
+384,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Exterminating Contract",December,2023,1260.52
+385,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Security Service",December,2023,1840.0
+386,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Fire and Security",December,2023,541.7
+387,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Repairs Contract",December,2023,2536.79
+388,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Misc. Maint./Operating",December,2023,3402.13
+389,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Bank Fees",December,2023,173.5
+390,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Other Renting Expense",December,2023,1502.94
+391,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Office Supplies",December,2023,303.59
+392,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Postage & Freight",December,2023,72.65
+393,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Legal Expense - Eviction",December,2023,0.0
+394,Expense,General & Administrative,"EXPENSES, Administrative Expense, , IT Expense",December,2023,2218.13
+395,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Misc. Administrative Exp",December,2023,903.67
+396,Expense,General & Administrative,"EXPENSES, Advertising and Promotion, , Promotions",December,2023,0.0
+397,Expense,General & Administrative,"EXPENSES, Advertising and Promotion, , Internet Advertising",December,2023,1594.5
+398,Expense,General & Administrative,"EXPENSES, Advertising and Promotion, , Advertising",December,2023,831.51
+399,Expense,Management Fee,"EXPENSES, Management Fees, , Management Fee",December,2023,22406.38
+400,Income,Rent,"Revenue, Rental Revenue, , Gross Rent",January,2024,756420.0
+401,Income,Rent,"Revenue, Rental Revenue, , Vacancies Apartments",January,2024,-40118.0
+402,Income,Other Income,"Revenue, Rental Revenue, , Delinquency",January,2024,-8802.44
+403,Income,Other Income,"Revenue, Other Revenue, , Key Replacement",January,2024,0.0
+404,Income,Other Income,"Revenue, Other Revenue, , Laundry & Vending",January,2024,3255.26
+405,Income,Other Income,"Revenue, Other Revenue, , NSF & Late Charges",January,2024,4751.35
+406,Income,Other Income,"Revenue, Other Revenue, , Application Fees",January,2024,3260.0
+407,Income,Other Income,"Revenue, Other Revenue, , Damages & Cleaning Fees",January,2024,3294.44
+408,Income,Other Income,"Revenue, Other Revenue, , Forfeited Tenant Deposit",January,2024,370.0
+409,Income,Other Income,"Revenue, Other Revenue, , Pet Fees",January,2024,475.0
+410,Income,Other Income,"Revenue, Other Revenue, , Water & Sewer Income",January,2024,21132.24
+411,Income,Other Income,"Revenue, Other Revenue, , Garage & Parking",January,2024,415.0
+412,Income,Other Income,"Revenue, Other Revenue, , Cable Income",January,2024,3371.32
+413,Income,Other Income,"Revenue, Other Revenue, , Gas Income",January,2024,4591.05
+414,Income,Other Income,"Revenue, Other Revenue, , Electric Income",January,2024,3901.53
+415,Income,Other Income,"Revenue, Other Revenue, , Misc Income",January,2024,809.59
+416,Expense,Real Estate Taxes,"EXPENSES, Real Estate Taxes and Insurance, , Real Estate Taxes",January,2024,65314.68
+417,Expense,Insurance,"EXPENSES, Real Estate Taxes and Insurance, , Property Liability Insurance",January,2024,18732.75
+418,Expense,Utilities,"EXPENSES, Utilities Expense, , Electricity",January,2024,8052.71
+419,Expense,Utilities,"EXPENSES, Utilities Expense, , Water",January,2024,18189.75
+420,Expense,Utilities,"EXPENSES, Utilities Expense, , Gas",January,2024,9909.84
+421,Expense,Utilities,"EXPENSES, Utilities Expense, , Sewer",January,2024,15042.48
+422,Expense,Utilities,"EXPENSES, Utilities Expense, , Telephone/Answering Service",January,2024,618.39
+423,Expense,Payroll,"EXPENSES, Payroll Expenses, , Manager Payroll",January,2024,5917.71
+424,Expense,Payroll,"EXPENSES, Payroll Expenses, , Grounds Payroll",January,2024,5220.75
+425,Expense,Payroll,"EXPENSES, Payroll Expenses, , Repairs Payroll",January,2024,22390.58
+426,Expense,Payroll,"EXPENSES, Payroll Expenses, , Payroll Processing Charge",January,2024,247.88
+427,Expense,Payroll,"EXPENSES, Payroll Expenses, , Payroll Taxes",January,2024,4834.57
+428,Expense,Payroll,"EXPENSES, Payroll Expenses, , Health Insurance/Other Benefits",January,2024,3364.46
+429,Expense,Repairs & Maintenance,"EXPENSES, Landscaping and Snow Removal, , Grounds Maintenance",January,2024,4112.31
+430,Expense,Repairs & Maintenance,"EXPENSES, Landscaping and Snow Removal, , Snow Removal",January,2024,3661.75
+431,Expense,Other Expense,"EXPENSES, Trash Removal, , Garbage & Trash Removal",January,2024,6165.34
+432,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Janitor/Cleaning Supply",January,2024,1207.84
+433,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Janitor/Clean Contract",January,2024,2175.88
+434,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Exterminating Contract",January,2024,1278.96
+435,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Security Service",January,2024,1840.0
+436,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Fire and Security",January,2024,552.36
+437,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Repairs Contract",January,2024,1988.14
+438,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Misc. Maint./Operating",January,2024,1851.58
+439,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Bank Fees",January,2024,209.0
+440,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Other Renting Expense",January,2024,1330.63
+441,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Office Supplies",January,2024,1165.53
+442,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Postage & Freight",January,2024,0.0
+443,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Legal Expense - Eviction",January,2024,0.0
+444,Expense,General & Administrative,"EXPENSES, Administrative Expense, , IT Expense",January,2024,2230.73
+445,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Misc. Administrative Exp",January,2024,1183.28
+446,Expense,General & Administrative,"EXPENSES, Advertising and Promotion, , Promotions",January,2024,0.0
+447,Expense,General & Administrative,"EXPENSES, Advertising and Promotion, , Internet Advertising",January,2024,1516.54
+448,Expense,General & Administrative,"EXPENSES, Advertising and Promotion, , Advertising",January,2024,1105.08
+449,Expense,Management Fee,"EXPENSES, Management Fees, , Management Fee",January,2024,22326.32
+450,Income,Rent,"Revenue, Rental Revenue, , Gross Rent",February,2024,755799.0
+451,Income,Rent,"Revenue, Rental Revenue, , Vacancies Apartments",February,2024,-39325.0
+452,Income,Other Income,"Revenue, Rental Revenue, , Delinquency",February,2024,-5219.3
+453,Income,Other Income,"Revenue, Other Revenue, , Key Replacement",February,2024,60.0
+454,Income,Other Income,"Revenue, Other Revenue, , Laundry & Vending",February,2024,0.0
+455,Income,Other Income,"Revenue, Other Revenue, , NSF & Late Charges",February,2024,4134.07
+456,Income,Other Income,"Revenue, Other Revenue, , Application Fees",February,2024,2961.0
+457,Income,Other Income,"Revenue, Other Revenue, , Damages & Cleaning Fees",February,2024,2604.3
+458,Income,Other Income,"Revenue, Other Revenue, , Forfeited Tenant Deposit",February,2024,510.0
+459,Income,Other Income,"Revenue, Other Revenue, , Pet Fees",February,2024,510.0
+460,Income,Other Income,"Revenue, Other Revenue, , Water & Sewer Income",February,2024,21663.31
+461,Income,Other Income,"Revenue, Other Revenue, , Garage & Parking",February,2024,440.0
+462,Income,Other Income,"Revenue, Other Revenue, , Cable Income",February,2024,3098.1
+463,Income,Other Income,"Revenue, Other Revenue, , Gas Income",February,2024,4285.82
+464,Income,Other Income,"Revenue, Other Revenue, , Electric Income",February,2024,4209.66
+465,Income,Other Income,"Revenue, Other Revenue, , Misc Income",February,2024,1230.1
+466,Expense,Real Estate Taxes,"EXPENSES, Real Estate Taxes and Insurance, , Real Estate Taxes",February,2024,65314.68
+467,Expense,Insurance,"EXPENSES, Real Estate Taxes and Insurance, , Property Liability Insurance",February,2024,18732.75
+468,Expense,Utilities,"EXPENSES, Utilities Expense, , Electricity",February,2024,8342.29
+469,Expense,Utilities,"EXPENSES, Utilities Expense, , Water",February,2024,18592.1
+470,Expense,Utilities,"EXPENSES, Utilities Expense, , Gas",February,2024,10062.86
+471,Expense,Utilities,"EXPENSES, Utilities Expense, , Sewer",February,2024,14017.74
+472,Expense,Utilities,"EXPENSES, Utilities Expense, , Telephone/Answering Service",February,2024,629.82
+473,Expense,Payroll,"EXPENSES, Payroll Expenses, , Manager Payroll",February,2024,5863.55
+474,Expense,Payroll,"EXPENSES, Payroll Expenses, , Grounds Payroll",February,2024,5217.93
+475,Expense,Payroll,"EXPENSES, Payroll Expenses, , Repairs Payroll",February,2024,22427.74
+476,Expense,Payroll,"EXPENSES, Payroll Expenses, , Payroll Processing Charge",February,2024,228.1
+477,Expense,Payroll,"EXPENSES, Payroll Expenses, , Payroll Taxes",February,2024,4524.81
+478,Expense,Payroll,"EXPENSES, Payroll Expenses, , Health Insurance/Other Benefits",February,2024,3287.41
+479,Expense,Repairs & Maintenance,"EXPENSES, Landscaping and Snow Removal, , Grounds Maintenance",February,2024,5322.72
+480,Expense,Repairs & Maintenance,"EXPENSES, Landscaping and Snow Removal, , Snow Removal",February,2024,3151.16
+481,Expense,Other Expense,"EXPENSES, Trash Removal, , Garbage & Trash Removal",February,2024,6493.28
+482,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Janitor/Cleaning Supply",February,2024,1511.1
+483,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Janitor/Clean Contract",February,2024,2036.79
+484,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Exterminating Contract",February,2024,1363.47
+485,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Security Service",February,2024,1840.0
+486,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Fire and Security",February,2024,543.08
+487,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Repairs Contract",February,2024,2625.34
+488,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Misc. Maint./Operating",February,2024,3119.36
+489,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Bank Fees",February,2024,147.22
+490,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Other Renting Expense",February,2024,1401.22
+491,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Office Supplies",February,2024,642.63
+492,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Postage & Freight",February,2024,0.0
+493,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Legal Expense - Eviction",February,2024,0.0
+494,Expense,General & Administrative,"EXPENSES, Administrative Expense, , IT Expense",February,2024,2181.89
+495,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Misc. Administrative Exp",February,2024,670.49
+496,Expense,General & Administrative,"EXPENSES, Advertising and Promotion, , Promotions",February,2024,0.0
+497,Expense,General & Administrative,"EXPENSES, Advertising and Promotion, , Internet Advertising",February,2024,1588.7
+498,Expense,General & Administrative,"EXPENSES, Advertising and Promotion, , Advertising",February,2024,513.74
+499,Expense,Management Fee,"EXPENSES, Management Fees, , Management Fee",February,2024,22360.09
+500,Income,Rent,"Revenue, Rental Revenue, , Gross Rent",March,2024,757384.0
+501,Income,Rent,"Revenue, Rental Revenue, , Vacancies Apartments",March,2024,-39950.0
+502,Income,Other Income,"Revenue, Rental Revenue, , Delinquency",March,2024,-4940.79
+503,Income,Other Income,"Revenue, Other Revenue, , Key Replacement",March,2024,0.0
+504,Income,Other Income,"Revenue, Other Revenue, , Laundry & Vending",March,2024,2974.67
+505,Income,Other Income,"Revenue, Other Revenue, , NSF & Late Charges",March,2024,3892.16
+506,Income,Other Income,"Revenue, Other Revenue, , Application Fees",March,2024,2790.0
+507,Income,Other Income,"Revenue, Other Revenue, , Damages & Cleaning Fees",March,2024,2742.19
+508,Income,Other Income,"Revenue, Other Revenue, , Forfeited Tenant Deposit",March,2024,180.0
+509,Income,Other Income,"Revenue, Other Revenue, , Pet Fees",March,2024,540.0
+510,Income,Other Income,"Revenue, Other Revenue, , Water & Sewer Income",March,2024,20816.85
+511,Income,Other Income,"Revenue, Other Revenue, , Garage & Parking",March,2024,430.0
+512,Income,Other Income,"Revenue, Other Revenue, , Cable Income",March,2024,3140.29
+513,Income,Other Income,"Revenue, Other Revenue, , Gas Income",March,2024,4340.57
+514,Income,Other Income,"Revenue, Other Revenue, , Electric Income",March,2024,4082.19
+515,Income,Other Income,"Revenue, Other Revenue, , Misc Income",March,2024,971.74
+516,Expense,Real Estate Taxes,"EXPENSES, Real Estate Taxes and Insurance, , Real Estate Taxes",March,2024,65314.68
+517,Expense,Insurance,"EXPENSES, Real Estate Taxes and Insurance, , Property Liability Insurance",March,2024,18732.75
+518,Expense,Utilities,"EXPENSES, Utilities Expense, , Electricity",March,2024,8265.16
+519,Expense,Utilities,"EXPENSES, Utilities Expense, , Water",March,2024,18183.47
+520,Expense,Utilities,"EXPENSES, Utilities Expense, , Gas",March,2024,9866.7
+521,Expense,Utilities,"EXPENSES, Utilities Expense, , Sewer",March,2024,14379.65
+522,Expense,Utilities,"EXPENSES, Utilities Expense, , Telephone/Answering Service",March,2024,631.64
+523,Expense,Payroll,"EXPENSES, Payroll Expenses, , Manager Payroll",March,2024,5951.61
+524,Expense,Payroll,"EXPENSES, Payroll Expenses, , Grounds Payroll",March,2024,5180.0
+525,Expense,Payroll,"EXPENSES, Payroll Expenses, , Repairs Payroll",March,2024,22568.2
+526,Expense,Payroll,"EXPENSES, Payroll Expenses, , Payroll Processing Charge",March,2024,249.75
+527,Expense,Payroll,"EXPENSES, Payroll Expenses, , Payroll Taxes",March,2024,4606.12
+528,Expense,Payroll,"EXPENSES, Payroll Expenses, , Health Insurance/Other Benefits",March,2024,3374.28
+529,Expense,Repairs & Maintenance,"EXPENSES, Landscaping and Snow Removal, , Grounds Maintenance",March,2024,4913.4
+530,Expense,Repairs & Maintenance,"EXPENSES, Landscaping and Snow Removal, , Snow Removal",March,2024,3374.21
+531,Expense,Other Expense,"EXPENSES, Trash Removal, , Garbage & Trash Removal",March,2024,6278.67
+532,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Janitor/Cleaning Supply",March,2024,922.31
+533,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Janitor/Clean Contract",March,2024,2168.0
+534,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Exterminating Contract",March,2024,1281.55
+535,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Security Service",March,2024,1840.0
+536,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Fire and Security",March,2024,513.89
+537,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Repairs Contract",March,2024,4112.57
+538,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Misc. Maint./Operating",March,2024,3737.23
+539,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Bank Fees",March,2024,252.47
+540,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Other Renting Expense",March,2024,1151.71
+541,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Office Supplies",March,2024,915.34
+542,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Postage & Freight",March,2024,105.67
+543,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Legal Expense - Eviction",March,2024,0.0
+544,Expense,General & Administrative,"EXPENSES, Administrative Expense, , IT Expense",March,2024,2267.53
+545,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Misc. Administrative Exp",March,2024,941.16
+546,Expense,General & Administrative,"EXPENSES, Advertising and Promotion, , Promotions",March,2024,0.0
+547,Expense,General & Administrative,"EXPENSES, Advertising and Promotion, , Internet Advertising",March,2024,1721.52
+548,Expense,General & Administrative,"EXPENSES, Advertising and Promotion, , Advertising",March,2024,895.18
+549,Expense,Management Fee,"EXPENSES, Management Fees, , Management Fee",March,2024,23019.98
+550,Income,Rent,"Revenue, Rental Revenue, , Gross Rent",April,2024,758162.0
+551,Income,Rent,"Revenue, Rental Revenue, , Vacancies Apartments",April,2024,-39646.0
+552,Income,Other Income,"Revenue, Rental Revenue, , Delinquency",April,2024,-7285.97
+553,Income,Other Income,"Revenue, Other Revenue, , Key Replacement",April,2024,0.0
+554,Income,Other Income,"Revenue, Other Revenue, , Laundry & Vending",April,2024,0.0
+555,Income,Other Income,"Revenue, Other Revenue, , NSF & Late Charges",April,2024,4059.35
+556,Income,Other Income,"Revenue, Other Revenue, , Application Fees",April,2024,3112.0
+557,Income,Other Income,"Revenue, Other Revenue, , Damages & Cleaning Fees",April,2024,2497.61
+558,Income,Other Income,"Revenue, Other Revenue, , Forfeited Tenant Deposit",April,2024,0.0
+559,Income,Other Income,"Revenue, Other Revenue, , Pet Fees",April,2024,470.0
+560,Income,Other Income,"Revenue, Other Revenue, , Water & Sewer Income",April,2024,18941.1
+561,Income,Other Income,"Revenue, Other Revenue, , Garage & Parking",April,2024,400.0
+562,Income,Other Income,"Revenue, Other Revenue, , Cable Income",April,2024,3319.04
+563,Income,Other Income,"Revenue, Other Revenue, , Gas Income",April,2024,4884.98
+564,Income,Other Income,"Revenue, Other Revenue, , Electric Income",April,2024,4663.39
+565,Income,Other Income,"Revenue, Other Revenue, , Misc Income",April,2024,780.37
+566,Expense,Real Estate Taxes,"EXPENSES, Real Estate Taxes and Insurance, , Real Estate Taxes",April,2024,65314.68
+567,Expense,Insurance,"EXPENSES, Real Estate Taxes and Insurance, , Property Liability Insurance",April,2024,18732.75
+568,Expense,Utilities,"EXPENSES, Utilities Expense, , Electricity",April,2024,8091.17
+569,Expense,Utilities,"EXPENSES, Utilities Expense, , Water",April,2024,18258.5
+570,Expense,Utilities,"EXPENSES, Utilities Expense, , Gas",April,2024,9785.16
+571,Expense,Utilities,"EXPENSES, Utilities Expense, , Sewer",April,2024,14113.86
+572,Expense,Utilities,"EXPENSES, Utilities Expense, , Telephone/Answering Service",April,2024,626.03
+573,Expense,Payroll,"EXPENSES, Payroll Expenses, , Manager Payroll",April,2024,5904.79
+574,Expense,Payroll,"EXPENSES, Payroll Expenses, , Grounds Payroll",April,2024,5209.65
+575,Expense,Payroll,"EXPENSES, Payroll Expenses, , Repairs Payroll",April,2024,22542.28
+576,Expense,Payroll,"EXPENSES, Payroll Expenses, , Payroll Processing Charge",April,2024,227.61
+577,Expense,Payroll,"EXPENSES, Payroll Expenses, , Payroll Taxes",April,2024,4513.95
+578,Expense,Payroll,"EXPENSES, Payroll Expenses, , Health Insurance/Other Benefits",April,2024,3364.87
+579,Expense,Repairs & Maintenance,"EXPENSES, Landscaping and Snow Removal, , Grounds Maintenance",April,2024,5017.98
+580,Expense,Repairs & Maintenance,"EXPENSES, Landscaping and Snow Removal, , Snow Removal",April,2024,0.0
+581,Expense,Other Expense,"EXPENSES, Trash Removal, , Garbage & Trash Removal",April,2024,6215.09
+582,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Janitor/Cleaning Supply",April,2024,1269.59
+583,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Janitor/Clean Contract",April,2024,1984.0
+584,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Exterminating Contract",April,2024,1231.1
+585,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Security Service",April,2024,1840.0
+586,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Fire and Security",April,2024,554.13
+587,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Repairs Contract",April,2024,1823.84
+588,Expense,Repairs & Maintenance,"EXPENSES, Operating and Maintenance Expense, , Misc. Maint./Operating",April,2024,2546.75
+589,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Bank Fees",April,2024,75.93
+590,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Other Renting Expense",April,2024,1217.84
+591,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Office Supplies",April,2024,1205.8
+592,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Postage & Freight",April,2024,0.0
+593,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Legal Expense - Eviction",April,2024,0.0
+594,Expense,General & Administrative,"EXPENSES, Administrative Expense, , IT Expense",April,2024,2065.98
+595,Expense,General & Administrative,"EXPENSES, Administrative Expense, , Misc. Administrative Exp",April,2024,717.05
+596,Expense,General & Administrative,"EXPENSES, Advertising and Promotion, , Promotions",April,2024,0.0
+597,Expense,General & Administrative,"EXPENSES, Advertising and Promotion, , Internet Advertising",April,2024,1876.52
+598,Expense,General & Administrative,"EXPENSES, Advertising and Promotion, , Advertising",April,2024,1201.43
+599,Expense,Management Fee,"EXPENSES, Management Fees, , Management Fee",April,2024,22723.56
