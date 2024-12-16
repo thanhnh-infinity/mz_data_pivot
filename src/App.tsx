@@ -100,8 +100,8 @@ const App: React.FC = () => {
           setCurrentConfig(updatedConfig); // Update state
           ref.current.webdatarocks.setReport(updatedConfig); // Update WebDataRocks report
       }
-    };
-
+    };    
+    
     return (
         <div className="App">
             <div className="toolbar">
@@ -124,7 +124,7 @@ const App: React.FC = () => {
                     ))}
                 </select>
 
-                <label htmlFor="csv-selector">Choose CSV File: </label>
+                <label htmlFor="csv-selector">Choose CSV Data Source File: </label>
                 <select
                     id="csv-selector"
                     onChange={(e) => {
@@ -152,6 +152,7 @@ const App: React.FC = () => {
             />
         </div>
     );
+    
 };
 
 export default App;
