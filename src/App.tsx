@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import * as WebDataRocks from "@webdatarocks/react-webdatarocks";
 import "@webdatarocks/webdatarocks/webdatarocks.min.css";
 import "./App.css";
@@ -23,6 +23,7 @@ const App: React.FC = () => {
     const [currentConfig, setCurrentConfig] = useState(pivotIEReportConfig);
     const [selectedReportType, setSelectedReportType] = useState<ReportType>("IncomeExpense");
     const [selectedCsvFile, setSelectedCsvFile] = useState("");
+    const [csvData, setCsvData] = useState<any[]>([]);
 
     // CSV file sources for each report type
     const csvSources = {
@@ -63,6 +64,37 @@ const App: React.FC = () => {
             }
         ]
     };
+
+    interface CsvParseError {
+        message: string;
+        code?: string;
+    }
+    
+    const fetchCsvData = async (url: string): Promise<any[]> => {
+        try {
+            const response = await fetch(url);
+            const csvText = await response.text();
+    
+            return new Promise<any[]>((resolve, reject) => {
+                Papa.parse(csvText, {
+                    header: true,
+                    skipEmptyLines: true,
+                    complete: (result) => resolve(result.data),
+                    error: (error: CsvParseError) => reject(error) // Specify type for `error`
+                });
+            });
+        } catch (error) {
+            console.error("Error fetching CSV data:", error);
+            return [];
+        }
+    };
+
+    useEffect(() => {
+        if (selectedCsvFile) {
+            fetchCsvData(selectedCsvFile).then(setCsvData);
+        }
+    }, [selectedCsvFile]);
+
 
     const onReportComplete = () => {
         if (ref.current) {
@@ -129,6 +161,14 @@ const App: React.FC = () => {
                         contentTooltip = "Data not available.";
                     }
                     */
+                    const rowData = csvData.find((row) => row.unique_unit === rowLabel);
+                    if (rowData && rowData.evidence_of_monthly_rent_amount) {
+                        contentTooltip = rowData.evidence_of_monthly_rent_amount;
+                    } else {
+                        contentTooltip = "Data not available.";
+                    }
+
+                    console.log(csvData)
 
                     contentTooltip = "Data not available .... Implementation is On-Progress...."
 
