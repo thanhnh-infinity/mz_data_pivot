@@ -11,7 +11,9 @@ const pivotIEReportConfig = {
         ],
         columns: [
             { uniqueName: "Measures" },
-            { uniqueName: "year" },
+            { 
+                uniqueName: "year"
+            },
             {
                 uniqueName: "month",
                 sortOrder: "asc", // Enforce ascending order

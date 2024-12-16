@@ -12,9 +12,11 @@ const pivotLeaseReportConfig = {
         ],
         columns: [
             { uniqueName: "Measures" },
-            { uniqueName: "year" },
             {
-                uniqueName: "month",
+                uniqueName: "year"
+            },
+            {
+                uniqueName: "month_index",
                 sortOrder: "asc",
                 sort: "custom",
                 customSorting: [
