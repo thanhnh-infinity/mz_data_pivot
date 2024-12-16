@@ -16,8 +16,8 @@ const pivotIEReportConfig = {
             },
             {
                 uniqueName: "month",
-                sortOrder: "asc", // Enforce ascending order
-                sort: "custom",   // Use custom sorting for this field
+                sortOrder: "asc",
+                sort: "custom",
                 customSorting: [
                     "January", "February", "March", "April", "May", "June",
                     "July", "August", "September", "October", "November", "December"
@@ -27,7 +27,8 @@ const pivotIEReportConfig = {
         measures: [
             {
                 uniqueName: "amount",
-                aggregation: "sum"
+                aggregation: "sum",
+                format: "69bg76yv"
             }
         ],
         expands: {
@@ -46,7 +47,7 @@ const pivotIEReportConfig = {
             showFilter: true,
             showHeaders: true,
             showTotals: true,
-            showGrandTotals: "on",
+            showGrandTotals: "rows",
             showHierarchies: true,
             showHierarchyCaptions: true,
             showReportFiltersArea: true
@@ -66,7 +67,7 @@ const pivotIEReportConfig = {
     },
     formats: [
         {
-            name: "Income and Expense NYC 2019",
+            name: "69bg76yv",
             thousandsSeparator: ",",
             decimalSeparator: ".",
             decimalPlaces: 2,

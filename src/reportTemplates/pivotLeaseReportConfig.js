@@ -12,23 +12,31 @@ const pivotLeaseReportConfig = {
         ],
         columns: [
             { uniqueName: "Measures" },
-            {
-                uniqueName: "year"
-            },
-            {
-                uniqueName: "month",
-                sortOrder: "asc",
-                sort: "custom",
-                customSorting: [
-                    "January", "February", "March", "April", "May", "June",
-                    "July", "August", "September", "October", "November", "December"
-                ]
+            { uniqueName: "year"   },
+            { 
+                uniqueName: "month_index",
+                caption: "Month",
+                mapping: { // Map numeric values to month names
+                    1: "January",
+                    2: "February",
+                    3: "March",
+                    4: "April",
+                    5: "May",
+                    6: "June",
+                    7: "July",
+                    8: "August",
+                    9: "September",
+                    10: "October",
+                    11: "November",
+                    12: "December"
+                }
             }
         ],
         measures: [
             {
                 uniqueName: "rent_value_current_month",
-                aggregation: "sum"
+                aggregation: "sum",
+                format: "69bgc8ao"
             }
         ],
         expands: {
@@ -63,13 +71,13 @@ const pivotLeaseReportConfig = {
     },
     formats: [
         {
-            name: "Lease Aggrement Report",
+            name: "69bgc8ao",
             thousandsSeparator: ",",
             decimalSeparator: ".",
             decimalPlaces: 2,
             maxSymbols: 20,
-            currencySymbol: "",
-            currencySymbolAlign: "right",
+            currencySymbol: "$",
+            currencySymbolAlign: "left",
             nullValue: " ",
             infinityValue: "Infinity",
             divideByZeroValue: "Infinity"
