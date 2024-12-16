@@ -6,16 +6,15 @@ const pivotLeaseReportConfig = {
     slice: {
         rows: [
             { uniqueName: "unique_building" },
-            { uniqueName: "unique_unit" },
-            { uniqueName: "tenant" },
-            { uniqueName: "unit_tenant_hiring_from_owner" }
+            { uniqueName: "unique_unit" }
+            //{ uniqueName: "tenant" },
+            //{ uniqueName: "unit_tenant_hiring_from_owner" }
         ],
         columns: [
             { uniqueName: "Measures" },
             { uniqueName: "year"   },
             { 
-                uniqueName: "month_index",
-                caption: "Month",
+                uniqueName: "month",
                 mapping: { // Map numeric values to month names
                     1: "January",
                     2: "February",
