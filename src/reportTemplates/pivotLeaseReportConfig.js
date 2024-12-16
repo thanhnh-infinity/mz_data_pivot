@@ -16,7 +16,7 @@ const pivotLeaseReportConfig = {
                 uniqueName: "year"
             },
             {
-                uniqueName: "month_index",
+                uniqueName: "month",
                 sortOrder: "asc",
                 sort: "custom",
                 customSorting: [
