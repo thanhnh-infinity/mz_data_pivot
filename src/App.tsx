@@ -39,6 +39,7 @@ const App: React.FC = () => {
     };
     
     const handleCellClickEvent = (cell: any) => {   
+        //console.log(selectedReportTypeRef.current)
         const existingTooltip = document.getElementById("cell-tooltip");
         if (existingTooltip) existingTooltip.remove();
 
@@ -51,8 +52,10 @@ const App: React.FC = () => {
             switch (selectedReportTypeRef.current) {
                 case "LeaseAgreement" :
                     contentTooltip = `Value: ${cell.value} is the total rent for ${rowCaption} in ${colCaption}`;
+                    break;
                 case "IncomeExpense":
                     contentTooltip = `IncomeExpense`;
+                    break;
             }
                 
             createTooltip(contentTooltip);

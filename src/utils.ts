@@ -31,7 +31,6 @@ export const createTooltip = (contentTooltip: string) => {
 };
 
 export const findMatchingRow = (data: any[], searchConditions: any) => {
-    console.log(data)
     return data.find(
         (row) =>
             row.unique_building === searchConditions.unique_building &&
