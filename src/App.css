@@ -31,3 +31,15 @@
   padding: 5px;
   font-size: 14px;
 }
+
+#wdr-pivot-view #wdr-grid-view div.zero_value {
+  color: red;
+}
+
+#wdr-pivot-view #wdr-grid-view div.distinguish_row_1 {
+  background-color: #eff9ff;
+}
+
+#wdr-pivot-view #wdr-grid-view div.distinguish_row_2 {
+  background-color: #cceeff;
+}

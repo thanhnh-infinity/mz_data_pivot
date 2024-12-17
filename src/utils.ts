@@ -39,3 +39,21 @@ export const findMatchingRow = (data: any[], searchConditions: any) => {
             row.month === searchConditions.month
     );
 };
+
+
+export const configureCellStyleLeaseTable = (cellBuilder: any, cellData: any) => {
+    if (cellData && cellData.type === "value") {
+        if (cellData.type === "value" && (cellData.value === null || cellData.value === undefined || isNaN(cellData.value))) {
+            cellBuilder.text = "0";
+            cellBuilder.addClass("zero_value"); 
+        }
+    }
+
+    if (cellData.type == "value") {
+        if (cellData.rowIndex % 2 == 0) {
+        cellBuilder.addClass("distinguish_row_1");
+        } else {
+        cellBuilder.addClass("distinguish_row_2");
+        }
+    }
+}

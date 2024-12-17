@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from "react";
 import * as WebDataRocks from "@webdatarocks/react-webdatarocks";
 import "@webdatarocks/webdatarocks/webdatarocks.min.css";
 import "./App.css";
-import { createTooltip, findMatchingRow } from "./utils";
+import { createTooltip, findMatchingRow, configureCellStyleLeaseTable } from "./utils";
 import pivotIEReportConfig from "./reportTemplates/pivotIEReportConfig";
 import pivotRRReportConfig from "./reportTemplates/pivotRRReportConfig";
 import pivotLeaseReportConfig from "./reportTemplates/pivotLeaseReportConfig";
@@ -42,11 +42,11 @@ const App: React.FC = () => {
     };
     
     const handleCellClickEvent = (cell: any) => {   
-        //console.log(selectedReportTypeRef.current)
+        
         const existingTooltip = document.getElementById("cell-tooltip");
         if (existingTooltip) existingTooltip.remove();
 
-        if (!cell || cell.type !== "value" || cell.isGrandTotal) return;
+        if (!cell || cell.type !== "value" || cell.isGrandTotal || isNaN(cell.value)) return;
         let contentTooltip = "";
 
         if (cell.isTotal) {
@@ -211,6 +211,13 @@ const App: React.FC = () => {
         processChartData(globalReportData.data.filter((row: any) => row.unique_building === selectedKey));
     };
 
+    // Customize cell appearance
+    const customizeCellFunction = (cellBuilder: any, cellData: any) => {
+        if (selectedReportTypeRef.current === "LeaseAgreement") {
+            configureCellStyleLeaseTable(cellBuilder, cellData)
+        }
+    };
+
     return (
         <div className="App">
              {/* WebDataRocks Pivot Table */}
@@ -220,6 +227,7 @@ const App: React.FC = () => {
                 width="100%"
                 height="800px"
                 reportcomplete={() => onReportComplete()}
+                customizeCell={customizeCellFunction}
                 report={currentConfig}
             />
 
