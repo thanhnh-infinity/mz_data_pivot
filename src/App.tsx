@@ -162,53 +162,57 @@ const App: React.FC = () => {
 
     // Process Chart Data for all units in a selected building
     const processChartData = (data: any[]) => {
-        const groupedData: { [key: string]: any } = {};
+        if (selectedReportTypeRef.current === "LeaseAgreement") {
+            const groupedData: { [key: string]: any } = {};
 
-        data.forEach((row) => {
-            const buildingKey = row.unique_building;
-            if (!groupedData[buildingKey]) {
-                groupedData[buildingKey] = {};
-            }
+            data.forEach((row) => {
+                const buildingKey = row.unique_building;
+                if (!groupedData[buildingKey]) {
+                    groupedData[buildingKey] = {};
+                }
 
-            const unitKey = row.unique_unit;
-            const timeKey = `${row.year}-${row.month}`;
+                const unitKey = row.unique_unit;
+                const timeKey = `${row.year}-${row.month}`;
 
-            if (!groupedData[buildingKey][unitKey]) {
-                groupedData[buildingKey][unitKey] = {};
-            }
-            groupedData[buildingKey][unitKey][timeKey] = row.rent_value_current_month;
-        });
-
-        const defaultBuilding = Object.keys(groupedData)[0];
-        setSelectedBuilding(defaultBuilding);
-
-        const chartHeader = ["Year/Month", ...Object.keys(groupedData[defaultBuilding])];
-
-        const chartRows: any[] = [];
-        const timeKeys = Array.from(
-            new Set(
-                Object.values(groupedData[defaultBuilding] as Record<string, any>) // Cast values to a known type
-                    .map((unit) => Object.keys(unit as Record<string, number>)) // Cast unit to an object
-                    .flat()
-            )
-        ).sort();
-
-        timeKeys.forEach((time) => {
-            const row: any[] = [time];
-            Object.keys(groupedData[defaultBuilding]).forEach((unitKey) => {
-                row.push(groupedData[defaultBuilding][unitKey][time] || 0);
+                if (!groupedData[buildingKey][unitKey]) {
+                    groupedData[buildingKey][unitKey] = {};
+                }
+                groupedData[buildingKey][unitKey][timeKey] = row.rent_value_current_month;
             });
-            chartRows.push(row);
-        });
 
-        const finalChartData = [chartHeader, ...chartRows];
-        setChartData(finalChartData);
+            const defaultBuilding = Object.keys(groupedData)[0];
+            setSelectedBuilding(defaultBuilding);
+
+            const chartHeader = ["Year/Month", ...Object.keys(groupedData[defaultBuilding])];
+
+            const chartRows: any[] = [];
+            const timeKeys = Array.from(
+                new Set(
+                    Object.values(groupedData[defaultBuilding] as Record<string, any>) // Cast values to a known type
+                        .map((unit) => Object.keys(unit as Record<string, number>)) // Cast unit to an object
+                        .flat()
+                )
+            ).sort();
+
+            timeKeys.forEach((time) => {
+                const row: any[] = [time];
+                Object.keys(groupedData[defaultBuilding]).forEach((unitKey) => {
+                    row.push(groupedData[defaultBuilding][unitKey][time] || 0);
+                });
+                chartRows.push(row);
+            });
+
+            const finalChartData = [chartHeader, ...chartRows];
+            setChartData(finalChartData);
+        } 
     };
 
     const handleBuildingChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
-        const selectedKey = e.target.value;
-        setSelectedBuilding(selectedKey);
-        processChartData(globalReportData.data.filter((row: any) => row.unique_building === selectedKey));
+        if (selectedReportTypeRef.current === "LeaseAgreement") {
+            const selectedKey = e.target.value;
+            setSelectedBuilding(selectedKey);
+            processChartData(globalReportData.data.filter((row: any) => row.unique_building === selectedKey));
+        }
     };
 
     // Customize cell appearance
