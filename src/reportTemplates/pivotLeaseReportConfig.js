@@ -1,7 +1,7 @@
 const pivotLeaseReportConfig = {
     dataSource: {
-        dataSourceType: "csv",
-        filename: ""
+        dataSourceType: "json",
+        data : []
     },
     slice: {
         rows: [

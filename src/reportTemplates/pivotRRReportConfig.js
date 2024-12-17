@@ -1,7 +1,7 @@
 const pivotRRReportConfig = {
     dataSource: {
-        dataSourceType: "csv",
-        filename: ""
+        dataSourceType: "json",
+        data: []
     },
     slice: {
         rows: [
