@@ -6,6 +6,7 @@ import { createTooltip, findMatchingRow } from "./utils";
 import pivotIEReportConfig from "./reportTemplates/pivotIEReportConfig";
 import pivotRRReportConfig from "./reportTemplates/pivotRRReportConfig";
 import pivotLeaseReportConfig from "./reportTemplates/pivotLeaseReportConfig";
+import ChartComponent from "./components/LeaseChartComponent";
 
 const reportConfigs = {
     IncomeExpense: pivotIEReportConfig,
@@ -27,6 +28,8 @@ const App: React.FC = () => {
     const [reportName, setReportName] = useState<string>(""); 
     const [reportType, setReportType] = useState<ReportType>("IncomeExpense"); 
     
+    const [chartData, setChartData] = useState<any[]>([]);
+    const [selectedBuilding, setSelectedBuilding] = useState<string>("");
 
     const onReportComplete = () => {
         if (ref.current) {
@@ -113,6 +116,7 @@ const App: React.FC = () => {
                 setReportName(data.report_name);
                 setReportType(data.report_type as ReportType);
                 selectedReportTypeRef.current = data.report_type as ReportType;
+                processChartData(data.data);
             })
             .catch((err) => console.error("Error fetching report data:", err));
     }, []);
@@ -155,15 +159,77 @@ const App: React.FC = () => {
         }
     };
 
+
+    // Process Chart Data for all units in a selected building
+    const processChartData = (data: any[]) => {
+        const groupedData: { [key: string]: any } = {};
+
+        data.forEach((row) => {
+            const buildingKey = row.unique_building;
+            if (!groupedData[buildingKey]) {
+                groupedData[buildingKey] = {};
+            }
+
+            const unitKey = row.unique_unit;
+            const timeKey = `${row.year}-${row.month}`;
+
+            if (!groupedData[buildingKey][unitKey]) {
+                groupedData[buildingKey][unitKey] = {};
+            }
+            groupedData[buildingKey][unitKey][timeKey] = row.rent_value_current_month;
+        });
+
+        const defaultBuilding = Object.keys(groupedData)[0];
+        setSelectedBuilding(defaultBuilding);
+
+        const chartHeader = ["Year/Month", ...Object.keys(groupedData[defaultBuilding])];
+
+        const chartRows: any[] = [];
+        const timeKeys = Array.from(
+            new Set(
+                Object.values(groupedData[defaultBuilding] as Record<string, any>) // Cast values to a known type
+                    .map((unit) => Object.keys(unit as Record<string, number>)) // Cast unit to an object
+                    .flat()
+            )
+        ).sort();
+
+        timeKeys.forEach((time) => {
+            const row: any[] = [time];
+            Object.keys(groupedData[defaultBuilding]).forEach((unitKey) => {
+                row.push(groupedData[defaultBuilding][unitKey][time] || 0);
+            });
+            chartRows.push(row);
+        });
+
+        const finalChartData = [chartHeader, ...chartRows];
+        setChartData(finalChartData);
+    };
+
+    const handleBuildingChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
+        const selectedKey = e.target.value;
+        setSelectedBuilding(selectedKey);
+        processChartData(globalReportData.data.filter((row: any) => row.unique_building === selectedKey));
+    };
+
     return (
         <div className="App">
+             {/* WebDataRocks Pivot Table */}
             <WebDataRocks.Pivot
                 ref={ref}
                 toolbar={true}
                 width="100%"
-                height="1000px"
+                height="800px"
                 reportcomplete={() => onReportComplete()}
                 report={currentConfig}
+            />
+
+            
+            {/* Chart Component */}
+            <ChartComponent
+                chartData={chartData}
+                selectedBuilding={selectedBuilding}
+                onBuildingChange={handleBuildingChange}
+                buildings={Array.from(new Set(globalReportData.data?.map((row: any) => row.unique_building)))}
             />
         </div>
     );
